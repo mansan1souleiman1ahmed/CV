@@ -1,0 +1,39 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "Mansan's CV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mansan1souleiman1ahmed/CV.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mansan1souleiman1ahmed/CV/issues"
+  },
+  "homepage": "https://github.com/mansan1souleiman1ahmed/CV#readme",
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@becode/eslint-config": "^0.8.1",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^6.6.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-unicorn": "^12.1.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.18.2",
+    "sass": "^1.23.3"
+  }
+}

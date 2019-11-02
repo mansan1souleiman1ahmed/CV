@@ -1,0 +1,118 @@
+// COLORS
+$main-background-color: #f5f6fa;
+$main-font-color: #2f3640;
+$theme-color: #38ada9;
+$roboto-helvetica-arial-sans-serif: "Roboto",
+"Helvetica",
+"Arial",
+sans-serif;
+
+//MIXINS
+@mixin font-family-opcity($font-family, $opacity) {
+    font-family: $font-family;
+    opacity: $opacity;
+}
+
+@mixin pm($padding, $margin) {
+    padding: $padding;
+    margin: $margin;
+}
+
+@mixin margin-t-r-b-l($top, $right, $bottom, $left) {
+    margin-top: $top;
+    margin-right: $right;
+    margin-bottom: $bottom;
+    margin-left: $left;
+}
+
+@mixin padding-t-r-b-l($top, $right, $bottom, $left) {
+    padding-top: $top;
+    padding-right: $right;
+    padding-bottom: $bottom;
+    padding-left: $left;
+}
+
+@mixin max-height-width($heigh, $width) {
+    max-height: $height;
+    max-width: $width;
+}
+
+@mixin bakground-image-cover-norepeat($url) {
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin keyframes-prefixer($animationName) {
+    @-webkit-keyframes #{$animationName} {
+        @content;
+    }
+
+    @-moz-keyframes #{$animationName} {
+        @content;
+    }
+
+    @keyframes #{$animationName} {
+        @content;
+    }
+}
+
+@include keyframes-prefixer(dynamic-theme-color) {
+    0% {
+        background-color: $theme-color;
+    }
+
+    10% {
+        background-color: #2ecc71;
+    }
+
+    20% {
+        background-color: #8e44ad;
+    }
+
+    50% {
+        background-color: #3498db;
+    }
+
+    70% {
+        background-color: #474787;
+    }
+
+    90% {
+        background-color: #54a0ff;
+    }
+
+    100% {
+        background-color: $theme-color;
+    }
+}
+
+@include keyframes-prefixer(dynamic-theme-font-color) {
+    0% {
+        background-color: $theme-color;
+    }
+
+    70% {
+        color: #474787;
+    }
+
+    80% {
+        color: #ff793f;
+    }
+
+    90% {
+        color: #54a0ff;
+    }
+
+    100% {
+        background-color: $theme-color;
+    }
+}
+
+/* 
+body {
+    background-color: $theme-color;
+    animation: dynamic-theme-color 100s linear infinite;
+ 
+
+} */
