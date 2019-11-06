@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./app.scss";
-class HelloMessage extends React.Component {
-  render() {
-    return <div>Hello {this.props.name}</div>;
-  }
+import App from "./app.js";
+export default function Index() {
+    return (
+        <React.Fragment>
+            <App />
+        </React.Fragment>
+    );
 }
 
-var mountNode = document.getElementById("app");
-ReactDOM.render(<HelloMessage name="Jane" />, mountNode);
+ReactDOM.render(<Index />, document.querySelector("#app"));
