@@ -20,7 +20,8 @@
   "homepage": "https://github.com/mansan1souleiman1ahmed/CV#readme",
   "dependencies": {
     "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react-dom": "^16.11.0",
+    "react-mdl": "^1.11.0"
   },
   "devDependencies": {
     "@becode/eslint-config": "^0.8.1",
