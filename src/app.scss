@@ -240,7 +240,14 @@ body {
     ///SideDrawer's style
 
     .side-drawer-open {
-        overflow: scroll;
+        .motivation-sidebar-laptop {
+            p {
+                text-align: center;
+                padding: 5%;
+                line-height: 20px;
+            }
+        }
+
         position: fixed;
         top: 0;
         left: 0;
@@ -572,6 +579,12 @@ body {
 
 @media screen and (max-width: 876px) {
     body {
+        .side-drawer-open {
+            overflow: scroll;
+            .motivation-sidebar-laptop {
+                display: none;
+            }
+        }
         .toolbar {
             p {
                 display: none;
@@ -582,8 +595,16 @@ body {
             width: 100%;
         }
         .container-info-sidebar {
-            display: block;
+            display: inline-block;
 
+            .motivation-sidebar-tablett-gsm {
+                width: 386px;
+                padding-left: 10px;
+                padding-right: 10px;
+                p {
+                    text-align: center;
+                }
+            }
             .picture-container-round {
                 @include margin-t-r-b-l(15px, 0px, 15px, 0px);
                 margin-left: 30%;
