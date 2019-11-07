@@ -1,7 +1,7 @@
 // COLORS
 $main-background-color: #f5f6fa;
 $main-font-color: #2f3640;
-$theme-color: #38ada9;
+$theme-color: #16a085;
 $roboto-helvetica-arial-sans-serif: "Roboto", "Helvetica", "Arial", sans-serif;
 
 //MIXINS
@@ -76,23 +76,23 @@ $roboto-helvetica-arial-sans-serif: "Roboto", "Helvetica", "Arial", sans-serif;
     }
 
     10% {
-        background-color: #2ecc71;
+        background-color: #81ecec;
     }
 
     20% {
-        background-color: #8e44ad;
+        background-color: #74b9ff;
     }
 
     50% {
-        background-color: #3498db;
+        background-color: #74b9ff;
     }
 
     70% {
-        background-color: #474787;
+        background-color: #fab1a0;
     }
 
     90% {
-        background-color: #54a0ff;
+        background-color: #ff7675;
     }
 
     100% {
@@ -151,10 +151,10 @@ body {
         left: 0;
         width: 100%;
         height: 59px;
-        /*  background-color: $theme-color;
-    animation: dynamic-theme-color 100s linear infinite; */
-        background-color: purple;
+
         z-index: 123;
+        background-color: $theme-color;
+        animation: dynamic-theme-color 100s linear infinite;
 
         p {
             padding: 0px;
@@ -213,10 +213,14 @@ body {
                     &:hover {
                         color: red;
                     }
-
+                    display: block;
                     color: white;
                     text-decoration: none;
-                    font-size: 1.5;
+                    font-size: 1.5rem;
+                    img {
+                        width: 50px;
+                        height: auto;
+                    }
                 }
 
                 ul {
@@ -236,6 +240,7 @@ body {
     ///SideDrawer's style
 
     .side-drawer-open {
+        overflow: scroll;
         position: fixed;
         top: 0;
         left: 0;
@@ -243,7 +248,7 @@ body {
         box-shadow: 2px 0px rgba(0, 0, 0, 0.5);
         width: 60%;
         max-width: 400px;
-        background: white;
+        background: #dfe6e9;
         z-index: 200;
 
         ul {
@@ -343,30 +348,27 @@ body {
 
                 .col-left {
                     // background-color:orange;
+                    background-color: $theme-color;
+                    animation: dynamic-theme-color 100s linear infinite;
                     flex: 0 0 calc(25%);
-                    /* 11/12 */
 
                     font-size: 20px;
                     font-weight: bold;
-                    color: lightblue;
+                    color: #fff;
                     background-color: $theme-color;
                     animation: dynamic-theme-color 100s linear infinite;
 
                     .content-col-left {
                         width: 100%;
-                        // border: 1px solid black;
                     }
                 }
 
-                #skills {
-                    span {
-                        padding-left: 10%;
-                    }
+                #education-flex {
+                    padding-top: 5%;
                 }
 
                 .right-grid {
                     width: 90%;
-
                     padding-left: 5%;
 
                     .row-right-grid {
@@ -376,7 +378,7 @@ body {
                         p {
                             margin: 0px;
                             text-align: left;
-                            font-size: 15px;
+                            font-size: 16px;
                         }
                         //flex-wrap:wrap;
 
@@ -401,6 +403,10 @@ body {
                         line-height: 2.3;
                         width: 100%;
                         // border: 2px solid lightblue;
+                        font-size: 17px;
+                        .p-languages {
+                            padding: 5%;
+                        }
                     }
                 }
 
@@ -481,14 +487,11 @@ body {
             // background-color:green;
             word-break: break-all;
 
-            .strong-text {
-                font-weight: bold;
-            }
-
             p {
                 text-align: center;
                 padding-left: 10px;
                 padding-right: 10px;
+                line-height: 25px;
             }
         }
 
@@ -519,7 +522,6 @@ body {
                     "./images/pomodoro.jpg"
                 );
             }
-
             .img-portfolio-cv {
                 width: 7rem;
                 height: 7rem;
@@ -553,6 +555,10 @@ body {
 
 @media screen and (min-width: 876px) {
     body {
+        .main-container {
+            width: 80%;
+            // margin-left: 0;
+        }
         .container-info-sidebar {
             display: none;
         }
@@ -561,8 +567,14 @@ body {
 
 @media screen and (max-width: 876px) {
     body {
+        .toolbar {
+            p {
+                display: none;
+            }
+        }
         .main-container {
             margin-left: 0;
+            width: 100%;
         }
         .container-info-sidebar {
             display: block;
@@ -644,6 +656,12 @@ body {
                         }
                     }
                 }
+
+                .cv-side-ref {
+                    p {
+                        font-size: 12px;
+                    }
+                }
             }
         }
 
@@ -673,6 +691,9 @@ body {
         .toolbar {
             p {
                 display: none;
+            }
+            .toolbar-navigation .toolbar-navigation-items a img {
+                width: 40px;
             }
         }
     }

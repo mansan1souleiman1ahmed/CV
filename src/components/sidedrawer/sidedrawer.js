@@ -7,27 +7,50 @@ const SideDrawer = props => {
                     <div className={"picture-container-round"}></div>
                 </div>
                 <div className={"text-container-sidebar"}>
+                    <strong>
+                        <p>{"Mail :"}</p>
+                    </strong>
+                    <p>{" mansan.souleiman.ahmed@gmail.com"}</p>
+
+                    <strong>
+                        <p>{"Addresse :"}</p>
+                    </strong>
+                    <p>{"Rue Sohet n°11"}</p>
+                    <strong>
+                        <p>{"Postal Code : "}</p>
+                    </strong>
+                    <p>{"4000"}</p>
+                    <strong>
+                        <p>{"Town :"}</p>
+                    </strong>
+                    <p>{"Liège"}</p>
+                    <u>
+                        <strong>
+                            <p>{"Objectvie"}</p>
+                        </strong>
+                    </u>
+
                     <p>
-                        <span className={"strong-text"}>{"Email"} </span>
-                        {": mansan.souleiman.ahmed@gmail.com"}
+                        {`I am looking for a web development internship. The internship must be
+                            at least 1/5 and can last 3 months, starting the 9th December.`}
                     </p>
-                    <p>
-                        <span className={"strong-text"}>
-                            {"Numéro de télephone"}
-                        </span>
-                        {": 0465/34 74 37"}
-                    </p>
-                    <p>
-                        <span className={"strong-text"}>{"Code postal"}</span>
-                        {": 4000"}
-                    </p>
-                    <p>
-                        <span className={"strong-text"}>{"Ville"}</span>
-                        {": Liège"}
-                    </p>
-                    <p>{`Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.`}</p>
+                    <u>
+                        <strong>
+                            <p>{"Projects"}</p>
+                        </strong>
+                    </u>
                 </div>
                 <div className={"col-portfolio-sidebar"}>
+                    <div className={"cv-side-ref"}>
+                        <strong>
+                            <p>{""}</p>
+                        </strong>
+                    </div>
+                    <div className={"cv-side-ref"}>
+                        <strong>
+                            <p>{"React project's references"}</p>
+                        </strong>
+                    </div>
                     <div
                         className={"img-portfolio-cv-sidebar"}
                         id={"img-portfolio-cv-project-1-sidebar"}>
@@ -53,6 +76,11 @@ const SideDrawer = props => {
                                 </button>
                             </a>
                         </div>
+                    </div>
+                    <div className={"cv-side-ref"}>
+                        <strong>
+                            <p>{"NPM project's references"}</p>
+                        </strong>
                     </div>
                     <div
                         className={"img-portfolio-cv-sidebar"}
@@ -80,6 +108,11 @@ const SideDrawer = props => {
                             </a>
                         </div>
                     </div>
+                    <div className={"cv-side-ref"}>
+                        <strong>
+                            <p>{"CV's reference"}</p>
+                        </strong>
+                    </div>
                     <div
                         className={"img-portfolio-cv-sidebar"}
                         id={"img-portfolio-cv-project-3-sidebar"}>
@@ -102,6 +135,16 @@ const SideDrawer = props => {
                                 </button>
                             </a>
                         </div>
+                    </div>
+                    <div className={"cv-side-ref"}>
+                        <u>
+                            <strong>
+                                <p style={{textAlign: "center"}}>
+                                    {"Motivation"}
+                                </p>
+                            </strong>
+                        </u>
+                        <p>{"jfkdslfjslfjls"}</p>
                     </div>
                 </div>
             </div>

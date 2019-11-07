@@ -8,27 +8,38 @@ export default function CV() {
                     <div className={"picture-container-round"} />
                 </div>
                 <div className={"text-container"}>
+                    <strong>
+                        <p>{"Mail :"}</p>
+                    </strong>
+                    <p>{" mansan.souleiman.ahmed@gmail.com"}</p>
+
+                    <strong>
+                        <p>{"Addresse :"}</p>
+                    </strong>
+                    <p>{"Rue Sohet n°11"}</p>
+                    <strong>
+                        <p>{"Postal Code : "}</p>
+                    </strong>
+                    <p>{"4000"}</p>
+                    <strong>
+                        <p>{"Town :"}</p>
+                    </strong>
+                    <p>{"Liège"}</p>
+                    <u>
+                        <strong>
+                            <p>{"Objectvie"}</p>
+                        </strong>
+                    </u>
+
                     <p>
-                        <span className={"strong-text"}> {"Email"} </span>
-                        {": mansan.souleiman.ahmed@gmail.com"}
+                        {`I am looking for a web development internship. The internship must be
+                            at least 1/5 and can last 3 months, starting the 9th December.`}
                     </p>
-                    <p>
-                        <span className={"strong-text"}>
-                            {"Numéro de télephone"}
-                        </span>
-                        {": 0465/34 74 37"}
-                    </p>
-                    <p>
-                        <span className={"strong-text"}> {"Code postal"} </span>
-                        {": 4000"}
-                    </p>
-                    <p>
-                        <span className={"strong-text"}> {"Ville"} </span>
-                        {": Liège"}
-                    </p>
-                    <p>
-                        {`Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.`}
-                    </p>
+                    <u>
+                        <strong>
+                            <p>{"Projects"}</p>
+                        </strong>
+                    </u>
                 </div>
                 <div className={"col-portfolio"}>
                     <div
@@ -59,7 +70,7 @@ export default function CV() {
                             </button>
                         </div>
                     </div>
-                    <div
+                    {/* In production =>   <div
                         className={"img-portfolio-cv"}
                         id={"img-portfolio-cv-project-3"}>
                         <div className={"buttons-container"}>
@@ -72,7 +83,7 @@ export default function CV() {
                                 {"Website"}
                             </button>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className={"container-cv"}>
@@ -96,15 +107,27 @@ export default function CV() {
                     </div>
                     <div className={"col-right"}>
                         <div className={"content-col-right"} id={"skills"}>
-                            <span>{"Programing langages"}</span>
+                            <u>
+                                <strong>
+                                    <span className={"p-languages-strong"}>
+                                        {"Programming languages"}
+                                    </span>
+                                </strong>
+                            </u>
                             <br />
-                            <span>
+                            <span className={"p-languages"}>
                                 {
                                     "HTML5, CSS3 && SASS, Javascript, Node JS (Basics), React"
                                 }
                             </span>
                             <br />
-                            <span>{"Languages"}</span>
+                            <strong>
+                                <u>
+                                    <span className={"languages"}>
+                                        {"Languages"}
+                                    </span>
+                                </u>
+                            </strong>
                             <div className={"right-grid"}>
                                 <div className={"row-right-grid"}>
                                     <div className={"grid-col-right"}>
@@ -146,9 +169,10 @@ export default function CV() {
                             <p>{"EDUCATION"}</p>
                         </div>
                     </div>
+
                     <div className={"col-right"}>
                         <div className={"content-col-right"}>
-                            <div className={"right-grid"}>
+                            <div className={"right-grid"} id={"education-flex"}>
                                 <div className={"row-right-grid"}>
                                     <div className={"grid-col-right"}>
                                         <p> {"05/2019–03/2019"} </p>
