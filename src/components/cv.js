@@ -12,6 +12,10 @@ export default function CV() {
                         <p>{"Mail :"}</p>
                     </strong>
                     <p>{" mansan.souleiman.ahmed@gmail.com"}</p>
+                    <strong>
+                        <p>{"Phone number :"}</p>
+                    </strong>
+                    <p>{"32 (0) 465/ 34 74 37"}</p>
 
                     <strong>
                         <p>{"Addresse :"}</p>
@@ -42,32 +46,73 @@ export default function CV() {
                     </u>
                 </div>
                 <div className={"col-portfolio"}>
-                    <div
-                        className={"img-portfolio-cv"}
-                        id={"img-portfolio-cv-project-1"}>
-                        <div className={"buttons-container"}>
-                            <button className={"button-github"} type={"button"}>
-                                {"Github"}
-                            </button>
-                            <button
-                                className={"button-website"}
-                                type={"button"}>
-                                {"Website"}
-                            </button>
+                    <div className={"cv-side-container"}>
+                        <div className={"cv-side-ref"}>
+                            <strong>
+                                <p>{"React project's references"}</p>
+                            </strong>
+                        </div>
+                        <div
+                            className={"img-portfolio-cv"}
+                            id={"img-portfolio-cv-project-1"}>
+                            <div className={"buttons-container"}>
+                                <button
+                                    className={"button-github"}
+                                    type={"button"}>
+                                    {"Github"}
+                                </button>
+                                <button
+                                    className={"button-website"}
+                                    type={"button"}>
+                                    {"Website"}
+                                </button>
+                            </div>
                         </div>
                     </div>
-                    <div
-                        className={"img-portfolio-cv"}
-                        id={"img-portfolio-cv-project-2"}>
-                        <div className={"buttons-container"}>
-                            <button className={"button-github"} type={"button"}>
-                                {"Github"}
-                            </button>
-                            <button
-                                className={"button-website"}
-                                type={"button"}>
-                                {"Website"}
-                            </button>
+                    <div className={"cv-side-container"}>
+                        <div className={"cv-side-ref"}>
+                            <strong>
+                                <p>{"NPM project's references"}</p>
+                            </strong>
+                        </div>
+                        <div
+                            className={"img-portfolio-cv"}
+                            id={"img-portfolio-cv-project-2"}>
+                            <div className={"buttons-container"}>
+                                <button
+                                    className={"button-github"}
+                                    type={"button"}>
+                                    {"Github"}
+                                </button>
+                                <button
+                                    className={"button-website"}
+                                    type={"button"}>
+                                    {"Website"}
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={"cv-side-container"}>
+                        <div className={"cv-side-ref"}>
+                            <strong>
+                                <p>{"CV's reference"}</p>
+                            </strong>
+                        </div>
+                        <div
+                            className={"img-portfolio-cv"}
+                            id={"img-portfolio-cv-project-3"}>
+                            <div className={"buttons-container"}>
+                                <button
+                                    className={"button-github"}
+                                    type={"button"}>
+                                    {"Github"}
+                                </button>
+                                <button
+                                    className={"button-website"}
+                                    type={"button"}>
+                                    {"Website"}
+                                </button>
+                            </div>
                         </div>
                     </div>
                     {/* In production =>   <div

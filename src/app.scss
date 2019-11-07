@@ -505,6 +505,10 @@ body {
             justify-content: space-around;
             @include margin-t-r-b-l(20px, 0px, 20px, 0px);
 
+            .cv-side-container {
+                text-align: center;
+            }
+
             #img-portfolio-cv-project-1 {
                 @include bakground-image-cover-norepeat(
                     "./images/pomodoro.jpg"
@@ -519,10 +523,11 @@ body {
 
             #img-portfolio-cv-project-3 {
                 @include bakground-image-cover-norepeat(
-                    "./images/pomodoro.jpg"
+                    "./images/portfolio.jpg"
                 );
             }
             .img-portfolio-cv {
+                display: inline-block;
                 width: 7rem;
                 height: 7rem;
                 //     background-color: red;
@@ -610,7 +615,15 @@ body {
                     border: solid 1px 1px 1px 1px;
                     z-index: 2;
                     @include margin-t-r-b-l(15px, 15px, 15px, 15px);
-
+                    #img-portfolio-cv-project-1-sidebar {
+                        margin-left: 50%;
+                    }
+                    /*    #img-portfolio-cv-project-2-sidebar {
+                        margin-left: 50%;
+                    }
+                    #img-portfolio-cv-project-3-sidebar {
+                        margin-padding: 50%;
+                    } */
                     &::after {
                         position: absolute;
                         content: "";
@@ -636,7 +649,7 @@ body {
 
                     &#img-portfolio-cv-project-3-sidebar::after {
                         @include bakground-image-cover-norepeat(
-                            "./images/pomodoro.jpg"
+                            "./images/portfolio.jpg"
                         );
                     }
 
@@ -658,6 +671,7 @@ body {
                 }
 
                 .cv-side-ref {
+                    width: 177px;
                     p {
                         font-size: 12px;
                     }
