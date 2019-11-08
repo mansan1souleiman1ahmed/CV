@@ -569,7 +569,6 @@ body {
     body {
         .main-container {
             width: 80%;
-            // margin-left: 0;
         }
         .container-info-sidebar {
             display: none;
@@ -579,6 +578,18 @@ body {
 
 @media screen and (max-width: 876px) {
     body {
+        .main-container {
+            .container-cv {
+                .col-cv {
+                    .col-right {
+                        .content-col-right {
+                            padding-left: 10px;
+                            padding-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
         .side-drawer-open {
             overflow: scroll;
             .motivation-sidebar-laptop {

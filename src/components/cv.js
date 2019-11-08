@@ -220,7 +220,9 @@ export default function CV() {
                             <div className={"right-grid"} id={"education-flex"}>
                                 <div className={"row-right-grid"}>
                                     <div className={"grid-col-right"}>
-                                        <p> {"05/2019–03/2019"} </p>
+                                        <strong>
+                                            <p> {"05/2019–03/2019"} </p>
+                                        </strong>
                                     </div>
                                     <div className={"grid-col-right"}>
                                         <p> {"Internship at Becode Liège"} </p>
@@ -228,7 +230,9 @@ export default function CV() {
                                 </div>
                                 <div className={"row-right-grid"}>
                                     <div className={"grid-col-right"}>
-                                        <p> {"02/2018–05/2019"} </p>
+                                        <strong>
+                                            <p> {"02/2018–05/2019"} </p>
+                                        </strong>
                                     </div>
                                     <div className={"grid-col-right"}>
                                         <p>
@@ -238,7 +242,9 @@ export default function CV() {
                                 </div>
                                 <div className={"row-right-grid"}>
                                     <div className={"grid-col-right"}>
-                                        <p> {"2014–2018"} </p>
+                                        <strong>
+                                            <p> {"2014–2018"} </p>
+                                        </strong>
                                     </div>
                                     <div className={"grid-col-right"}>
                                         <p>
@@ -250,7 +256,9 @@ export default function CV() {
                                 </div>
                                 <div className={"row-right-grid"}>
                                     <div className={"grid-col-right"}>
-                                        <p> {"2013–2014"} </p>
+                                        <strong>
+                                            <p> {"2013–2014"} </p>
+                                        </strong>
                                     </div>
                                     <div className={"grid-col-right"}>
                                         <p>
@@ -262,7 +270,9 @@ export default function CV() {
                                 </div>
                                 <div className={"row-right-grid"}>
                                     <div className={"grid-col-right"}>
-                                        <p> {"2012–2013"} </p>
+                                        <strong>
+                                            <p> {"2012–2013"}</p>
+                                        </strong>
                                     </div>
                                     <div className={"grid-col-right"}>
                                         <p> {"CESS"} </p>
