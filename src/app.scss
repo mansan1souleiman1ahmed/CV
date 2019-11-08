@@ -598,9 +598,9 @@ body {
             display: inline-block;
 
             .motivation-sidebar-tablett-gsm {
-                width: 386px;
                 padding-left: 10px;
                 padding-right: 10px;
+                width: 100%;
                 p {
                     text-align: center;
                 }
@@ -692,7 +692,6 @@ body {
                 }
 
                 .cv-side-ref {
-                    width: 177px;
                     p {
                         font-size: 12px;
                     }
