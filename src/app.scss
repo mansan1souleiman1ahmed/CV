@@ -547,15 +547,41 @@ body {
                     transform: translate(-50%, -50%);
 
                     .button-github {
+                        width: 73px;
                         cursor: pointer;
-                        width: 70px;
-                        margin: 5px;
+                        color: #000000 !important;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        background: rgb(219, 154, 154);
+
+                        border: 2px solid rgb(219, 154, 154) !important;
+                        display: inline-block;
+                        transition: all 0.4s ease 0s;
+                        &:hover {
+                            color: #ffffff !important;
+                            background: #50f04b;
+                            border-color: #50f04b !important;
+                            transition: all 0.4s ease 0s;
+                        }
                     }
 
                     .button-website {
-                        width: 70px;
+                        width: 73px;
                         cursor: pointer;
-                        margin: 5px;
+                        color: #000000 !important;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        background: rgb(141, 126, 207);
+
+                        border: 2px solid rgb(141, 126, 207) !important;
+                        display: inline-block;
+                        transition: all 0.4s ease 0s;
+                        &:hover {
+                            color: #ffffff !important;
+                            background: #f6b93b;
+                            border-color: #f6b93b !important;
+                            transition: all 0.4s ease 0s;
+                        }
                     }
                 }
             }
@@ -691,13 +717,41 @@ body {
 
                     .buttons-container-sidebar {
                         .button-github-sidebar {
-                            width: 70px;
+                            width: 73px;
                             cursor: pointer;
+                            color: #000000 !important;
+                            text-transform: uppercase;
+                            text-decoration: none;
+                            background: rgb(219, 154, 154);
+
+                            border: 2px solid rgb(219, 154, 154) !important;
+                            display: inline-block;
+                            transition: all 0.4s ease 0s;
+                            &:hover {
+                                color: #ffffff !important;
+                                background: #50f04b;
+                                border-color: #50f04b !important;
+                                transition: all 0.4s ease 0s;
+                            }
                         }
 
                         .button-website-sidebar {
-                            width: 70px;
+                            width: 73px;
                             cursor: pointer;
+                            color: #000000 !important;
+                            text-transform: uppercase;
+                            text-decoration: none;
+                            background: rgb(141, 126, 207);
+
+                            border: 2px solid rgb(141, 126, 207) !important;
+                            display: inline-block;
+                            transition: all 0.4s ease 0s;
+                            &:hover {
+                                color: #ffffff !important;
+                                background: #f6b93b;
+                                border-color: #f6b93b !important;
+                                transition: all 0.4s ease 0s;
+                            }
                         }
                     }
                 }
