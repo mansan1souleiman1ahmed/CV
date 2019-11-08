@@ -5,6 +5,6 @@ I did my Curriculum Vitae in React.
 
 To launch server
 
-## run build 
+## npm run build 
 
 To build project
