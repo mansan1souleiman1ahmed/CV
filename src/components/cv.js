@@ -22,7 +22,7 @@ export default function CV() {
                     </strong>
                     <p>{"Rue Sohet n°11"}</p>
                     <strong>
-                        <p>{"Postal Code : "}</p>
+                        <p>{"Zip Postal Code : "}</p>
                     </strong>
                     <p>{"4000"}</p>
                     <strong>
@@ -56,16 +56,28 @@ export default function CV() {
                             className={"img-portfolio-cv"}
                             id={"img-portfolio-cv-project-1"}>
                             <div className={"buttons-container"}>
-                                <button
-                                    className={"button-github"}
-                                    type={"button"}>
-                                    {"Github"}
-                                </button>
-                                <button
-                                    className={"button-website"}
-                                    type={"button"}>
-                                    {"Website"}
-                                </button>
+                                <a
+                                    href={
+                                        "https://github.com/mansan1souleiman1ahmed/React-project"
+                                    }
+                                    target={"_blank"}>
+                                    <button
+                                        className={"button-github"}
+                                        type={"button"}>
+                                        {"Github"}
+                                    </button>
+                                </a>
+                                <a
+                                    href={
+                                        "https://xenodochial-carson-a9c6e3.netlify.com/"
+                                    }
+                                    target={"_blank"}>
+                                    <button
+                                        className={"button-website"}
+                                        type={"button"}>
+                                        {"Website"}
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -79,16 +91,28 @@ export default function CV() {
                             className={"img-portfolio-cv"}
                             id={"img-portfolio-cv-project-2"}>
                             <div className={"buttons-container"}>
-                                <button
-                                    className={"button-github"}
-                                    type={"button"}>
-                                    {"Github"}
-                                </button>
-                                <button
-                                    className={"button-website"}
-                                    type={"button"}>
-                                    {"Website"}
-                                </button>
+                                <a
+                                    href={
+                                        "https://github.com/mansan1souleiman1ahmed/Project-WorkSpace "
+                                    }
+                                    target={"_blank"}>
+                                    <button
+                                        className={"button-github"}
+                                        type={"button"}>
+                                        {"Github"}
+                                    </button>
+                                </a>
+                                <a
+                                    href={
+                                        "https://www.npmjs.com/package/@mansan/holidates"
+                                    }
+                                    target={"_blank"}>
+                                    <button
+                                        className={"button-website"}
+                                        type={"button"}>
+                                        {"Website"}
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -102,16 +126,17 @@ export default function CV() {
                             className={"img-portfolio-cv"}
                             id={"img-portfolio-cv-project-3"}>
                             <div className={"buttons-container"}>
-                                <button
-                                    className={"button-github"}
-                                    type={"button"}>
-                                    {"Github"}
-                                </button>
-                                <button
-                                    className={"button-website"}
-                                    type={"button"}>
-                                    {"Website"}
-                                </button>
+                                <a
+                                    href={
+                                        "https://github.com/mansan1souleiman1ahmed/CV"
+                                    }
+                                    target={"_blank"}>
+                                    <button
+                                        className={"button-github"}
+                                        type={"button"}>
+                                        {"Github"}
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>

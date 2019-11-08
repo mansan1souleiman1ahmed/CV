@@ -29,7 +29,8 @@ const Toolbar = props => (
                         <a
                             href={
                                 "https://www.linkedin.com/in/mansan-souleiman-ahmed-098400150/"
-                            }>
+                            }
+                            target={"_blank"}>
                             <img
                                 src={
                                     "https://img.icons8.com/material-outlined/50/000000/linkedin.png"
@@ -38,7 +39,9 @@ const Toolbar = props => (
                         </a>
                     </li>
                     <li>
-                        <a href={"https://github.com/mansan1souleiman1ahmed"}>
+                        <a
+                            href={"https://github.com/mansan1souleiman1ahmed"}
+                            target={"_blank"}>
                             <img
                                 src={
                                     "https://img.icons8.com/material-outlined/50/000000/github.png"

@@ -9,7 +9,7 @@ const SideDrawer = props => (
                 </strong>
             </u>
             <p>
-                {`I am a former accounting student who has converted to web development. I  studied the basics of programming with online courses like codeacademy.com and freecodecamp.org before enrolling in Becode (Liège).During my training I had the opportunity to benefit from an active pedagogy course, the objective of which was to develop professional skills in an incubator that simulates a professional web developer environment. Also, I was able to develop my ability to learn quickly and efficiently. The training also taught me to cultivate resourcefulness, and the ability to manage projects as a team.I had the opportunity to create projects using different technologies both front-end and back-end. I can mention React and Angular 7 for the front end and NodeJS, Laravel and for the back end. However, I must admit that I am more interested in a career in front-end, and I am currently learning React and libraries that makes it easier to manage states like Redux.I am a motivated person who lives for coding. I know that I have a lot to learn, and I am eagerd to learn knew technologies. As Plato said 'I know only one thing, it is that I know nothing!'but I never get tire from learning what I'm passionate about. 
+                {`I am a former accounting student who has converted to web development. I  studied the basics of programming with online courses like codeacademy.com and freecodecamp.org before enrolling in Becode (Liège). During my training I had the opportunity to benefit from an active pedagogy course, the objective of which was to develop professional skills in an incubator that simulates a professional web developer environment. Also, I was able to develop my ability to learn quickly and efficiently. The training also taught me to cultivate resourcefulness, and the ability to manage projects as a team. I had the opportunity to create projects using different technologies both front-end and back-end. I can mention React and Angular 7 for the front end and NodeJS, Laravel and for the back end. However, I must admit that I am more interested in a career in front-end, and I am currently learning React and libraries that makes it easier to manage states like Redux. I am a motivated person who lives for coding. I know that I have a lot to learn, and I am eagerd to learn knew technologies. As Plato said 'I know only one thing, it is that I know nothing!'but I never get tire from learning what I'm passionate about. 
                         `}
             </p>
         </div>
@@ -36,7 +36,7 @@ const SideDrawer = props => (
                 </strong>
                 <p>{"Rue Sohet n°11"}</p>
                 <strong>
-                    <p>{"Postal Code : "}</p>
+                    <p>{"Zip Postal Code : "}</p>
                 </strong>
                 <p>{"4000"}</p>
                 <strong>
@@ -72,7 +72,8 @@ const SideDrawer = props => (
                         <a
                             href={
                                 "https://github.com/mansan1souleiman1ahmed/React-project"
-                            }>
+                            }
+                            target={"_blank"}>
                             <button
                                 className={"button-github-sidebar"}
                                 type={"button"}>
@@ -82,7 +83,8 @@ const SideDrawer = props => (
                         <a
                             href={
                                 "https://xenodochial-carson-a9c6e3.netlify.com/"
-                            }>
+                            }
+                            target={"_blank"}>
                             <button
                                 className={"button-website-sidebar"}
                                 type={"button"}>
@@ -103,7 +105,8 @@ const SideDrawer = props => (
                         <a
                             href={
                                 "https://github.com/mansan1souleiman1ahmed/Project-WorkSpace "
-                            }>
+                            }
+                            target={"_blank"}>
                             <button
                                 className={"button-github-sidebar"}
                                 type={"button"}>
@@ -113,7 +116,8 @@ const SideDrawer = props => (
                         <a
                             href={
                                 "https://www.npmjs.com/package/@mansan/holidates"
-                            }>
+                            }
+                            target={"_blank"}>
                             <button
                                 className={"button-website-sidebar"}
                                 type={"button"}>
@@ -134,7 +138,8 @@ const SideDrawer = props => (
                         <a
                             href={
                                 "https://github.com/mansan1souleiman1ahmed/CV"
-                            }>
+                            }
+                            target={"_blank"}>
                             <button
                                 className={"button-github-sidebar"}
                                 type={"button"}>
@@ -158,7 +163,7 @@ const SideDrawer = props => (
                             </strong>
                         </u>
                         <p>
-                            {`I am a former accounting student who has converted to web development. I  studied the basics of programming with online courses like codeacademy.com and freecodecamp.org before enrolling in Becode (Liège).During my training I had the opportunity to benefit from an active pedagogy course, the objective of which was to develop professional skills in an incubator that simulates a professional web developer environment. Also, I was able to develop my ability to learn quickly and efficiently. The training also taught me to cultivate resourcefulness, and the ability to manage projects as a team.I had the opportunity to create projects using different technologies both front-end and back-end. I can mention React and Angular 7 for the front end and NodeJS, Laravel and for the back end. However, I must admit that I am more interested in a career in front-end, and I am currently learning React and libraries that makes it easier to manage states like Redux.I am a motivated person who lives for coding. I know that I have a lot to learn, and I am eagerd to learn knew technologies. As Plato said 'I know only one thing, it is that I know nothing!'but I never get tire from learning what I'm passionate about. 
+                            {`I am a former accounting student who has converted to web development. I  studied the basics of programming with online courses like codeacademy.com and freecodecamp.org before enrolling in Becode (Liège). During my training I had the opportunity to benefit from an active pedagogy course, the objective of which was to develop professional skills in an incubator that simulates a professional web developer environment. Also, I was able to develop my ability to learn quickly and efficiently. The training also taught me to cultivate resourcefulness, and the ability to manage projects as a team. I had the opportunity to create projects using different technologies both front-end and back-end. I can mention React and Angular 7 for the front end and NodeJS, Laravel and for the back end. However, I must admit that I am more interested in a career in front-end, and I am currently learning React and libraries that makes it easier to manage states like Redux. I am a motivated person who lives for coding. I know that I have a lot to learn, and I am eagerd to learn knew technologies. As Plato said 'I know only one thing, it is that I know nothing!'but I never get tire from learning what I'm passionate about. 
                         `}
                         </p>
                     </div>
