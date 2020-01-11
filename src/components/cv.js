@@ -246,7 +246,7 @@ export default function CV() {
                                 <div className={"row-right-grid"}>
                                     <div className={"grid-col-right"}>
                                         <strong>
-                                            <p> {"05/2019–03/2019"} </p>
+                                            <p> {"05/2019–03/2020"} </p>
                                         </strong>
                                     </div>
                                     <div className={"grid-col-right"}>
