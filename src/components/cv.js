@@ -36,8 +36,8 @@ export default function CV() {
                     </u>
 
                     <p>
-                        {`I'm looking for a job as a front-end web developer. I am a junior web
-                        developer who is currently doing an internship in a company.`}
+                        {`I'm looking for a job as a front-end web developer.I am a junior web developer 
+                        who is currently doing an internship in a company.`}
                     </p>
                     <u>
                         <strong>
