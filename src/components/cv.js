@@ -119,12 +119,36 @@ export default function CV() {
                     <div className={"cv-side-container"}>
                         <div className={"cv-side-ref"}>
                             <strong>
-                                <p>{"CV's reference"}</p>
+                                <p>{"Angular&Express's reference"}</p>
                             </strong>
                         </div>
                         <div
                             className={"img-portfolio-cv"}
                             id={"img-portfolio-cv-project-3"}>
+                            <div className={"buttons-container"}>
+                                <a
+                                    href={
+                                        "https://github.com/mansan1souleiman1ahmed/Forum-Angular"
+                                    }
+                                    target={"_blank"}>
+                                    <button
+                                        className={"button-github"}
+                                        type={"button"}>
+                                        {"Github"}
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={"cv-side-container"}>
+                        <div className={"cv-side-ref"}>
+                            <strong>
+                                <p>{"CV's reference"}</p>
+                            </strong>
+                        </div>
+                        <div
+                            className={"img-portfolio-cv"}
+                            id={"img-portfolio-cv-project-4"}>
                             <div className={"buttons-container"}>
                                 <a
                                     href={

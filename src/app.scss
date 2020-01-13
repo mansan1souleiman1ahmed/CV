@@ -529,10 +529,14 @@ body {
             }
 
             #img-portfolio-cv-project-3 {
+                @include bakground-image-cover-norepeat("./images/begal.jpg");
+            }
+            #img-portfolio-cv-project-4 {
                 @include bakground-image-cover-norepeat(
                     "./images/portfolio.jpg"
                 );
             }
+
             .img-portfolio-cv {
                 display: inline-block;
                 width: 7rem;
