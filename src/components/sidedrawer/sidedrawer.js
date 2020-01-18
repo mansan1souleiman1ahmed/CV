@@ -166,13 +166,24 @@ const SideDrawer = props => (
                     <div className={"buttons-container-sidebar"}>
                         <a
                             href={
-                                "https://github.com/mansan1souleiman1ahmed/Forum-Angular"
+                                "https://github.com/mansan1souleiman1ahmed/simple-forum"
                             }
                             target={"_blank"}>
                             <button
                                 className={"button-github-sidebar"}
                                 type={"button"}>
                                 {"Github"}
+                            </button>
+                        </a>
+                        <a
+                            href={
+                                "https://sheltered-earth-29851.herokuapp.com/?fbclid=IwAR1JtZxcwGkoHoH4iPU80AvnLluCOQHJOcn8SaxF80U8st5_CC159gwBvP8"
+                            }
+                            target={"_blank"}>
+                            <button
+                                className={"button-github-sidebar"}
+                                type={"button"}>
+                                {"Website"}
                             </button>
                         </a>
                     </div>

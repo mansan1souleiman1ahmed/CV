@@ -152,13 +152,24 @@ export default function CV() {
                             <div className={"buttons-container"}>
                                 <a
                                     href={
-                                        "https://github.com/mansan1souleiman1ahmed/CV"
+                                        "https://github.com/mansan1souleiman1ahmed/simple-forum"
                                     }
                                     target={"_blank"}>
                                     <button
                                         className={"button-github"}
                                         type={"button"}>
                                         {"Github"}
+                                    </button>
+                                </a>
+                                <a
+                                    href={
+                                        "https://sheltered-earth-29851.herokuapp.com/?fbclid=IwAR1JtZxcwGkoHoH4iPU80AvnLluCOQHJOcn8SaxF80U8st5_CC159gwBvP8"
+                                    }
+                                    target={"_blank"}>
+                                    <button
+                                        className={"button-github"}
+                                        type={"button"}>
+                                        {"Website"}
                                     </button>
                                 </a>
                             </div>
