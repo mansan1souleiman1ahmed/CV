@@ -128,35 +128,6 @@ const SideDrawer = props => (
                 </div>
                 <div className={"cv-side-ref"}>
                     <strong>
-                        <p>{"CV's reference"}</p>
-                    </strong>
-                </div>
-                <div
-                    className={"img-portfolio-cv-sidebar"}
-                    id={"img-portfolio-cv-project-3-sidebar"}>
-                    <div className={"buttons-container-sidebar"}>
-                        <a
-                            href={
-                                "https://github.com/mansan1souleiman1ahmed/CV"
-                            }
-                            target={"_blank"}>
-                            <button
-                                className={"button-github-sidebar"}
-                                type={"button"}>
-                                {"Github"}
-                            </button>
-                        </a>
-                        <a href={MonCV} download={"cv.pdf"}>
-                            <button
-                                className={"button-website-sidebar"}
-                                type={"button"}>
-                                {"CV PDF"}
-                            </button>
-                        </a>
-                    </div>
-                </div>
-                <div className={"cv-side-ref"}>
-                    <strong>
                         <p>{"Angular&&Express project"}</p>
                     </strong>
                 </div>
@@ -181,7 +152,7 @@ const SideDrawer = props => (
                             }
                             target={"_blank"}>
                             <button
-                                className={"button-github-sidebar"}
+                                className={"button-website-sidebar"}
                                 type={"button"}>
                                 {"Website"}
                             </button>
@@ -189,6 +160,36 @@ const SideDrawer = props => (
                     </div>
                 </div>
                 <div className={"cv-side-ref"}>
+                    <div className={"cv-side-ref"}>
+                        <strong>
+                            <p>{"CV's reference"}</p>
+                        </strong>
+                    </div>
+                    <div
+                        className={"img-portfolio-cv-sidebar"}
+                        id={"img-portfolio-cv-project-3-sidebar"}>
+                        <div className={"buttons-container-sidebar"}>
+                            <a
+                                href={
+                                    "https://github.com/mansan1souleiman1ahmed/CV"
+                                }
+                                target={"_blank"}>
+                                <button
+                                    className={"button-github-sidebar"}
+                                    type={"button"}>
+                                    {"Github"}
+                                </button>
+                            </a>
+                            <a href={MonCV} download={"cv.pdf"}>
+                                <button
+                                    className={"button-website-sidebar"}
+                                    type={"button"}>
+                                    {"CV PDF"}
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
                     <div className={"motivation-sidebar-tablett-gsm"}>
                         <u>
                             <strong>

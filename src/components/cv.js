@@ -128,35 +128,11 @@ export default function CV() {
                             <div className={"buttons-container"}>
                                 <a
                                     href={
-                                        "https://github.com/mansan1souleiman1ahmed/Forum-Angular"
-                                    }
-                                    target={"_blank"}>
-                                    <button
-                                        className={"button-github"}
-                                        type={"button"}>
-                                        {"Github"}
-                                    </button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className={"cv-side-container"}>
-                        <div className={"cv-side-ref"}>
-                            <strong>
-                                <p>{"CV's reference"}</p>
-                            </strong>
-                        </div>
-                        <div
-                            className={"img-portfolio-cv"}
-                            id={"img-portfolio-cv-project-4"}>
-                            <div className={"buttons-container"}>
-                                <a
-                                    href={
                                         "https://github.com/mansan1souleiman1ahmed/simple-forum"
                                     }
                                     target={"_blank"}>
                                     <button
-                                        className={"button-github"}
+                                        className={"button-website"}
                                         type={"button"}>
                                         {"Github"}
                                     </button>
@@ -175,20 +151,30 @@ export default function CV() {
                             </div>
                         </div>
                     </div>
-                    {/* In production =>   <div
-                        className={"img-portfolio-cv"}
-                        id={"img-portfolio-cv-project-3"}>
-                        <div className={"buttons-container"}>
-                            <button className={"button-github"} type={"button"}>
-                                {"Github"}
-                            </button>
-                            <button
-                                className={"button-website"}
-                                type={"button"}>
-                                {"Website"}
-                            </button>
+                    <div className={"cv-side-container"}>
+                        <div className={"cv-side-ref"}>
+                            <strong>
+                                <p>{"CV's reference"}</p>
+                            </strong>
                         </div>
-                    </div> */}
+                        <div
+                            className={"img-portfolio-cv"}
+                            id={"img-portfolio-cv-project-4"}>
+                            <div className={"buttons-container"}>
+                                <a
+                                    href={
+                                        "https://github.com/mansan1souleiman1ahmed/CV"
+                                    }
+                                    target={"_blank"}>
+                                    <button
+                                        className={"button-github"}
+                                        type={"button"}>
+                                        {"Github"}
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className={"container-cv"}>

@@ -715,6 +715,11 @@ body {
                             "./images/portfolio.jpg"
                         );
                     }
+                    &#img-portfolio-cv-project-4-sidebar::after {
+                        @include bakground-image-cover-norepeat(
+                            "./images/begal.jpg"
+                        );
+                    }
 
                     &:hover::after {
                         left: 100%;
